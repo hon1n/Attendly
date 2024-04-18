@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hon1n.attendly"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hon1n.attendly"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -45,6 +47,14 @@
           ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5bea05fc-f125-48fb-9d10-d4c32c5ae78e"
+      }
+    }
   }
 }

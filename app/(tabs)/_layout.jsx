@@ -46,7 +46,7 @@ const TabsLayout = () => {
                 <Tab 
                     icon={icons.profile}
                     color={color}
-                    label={"главная"}
+                    label={"профиль"}
                 />
             )
         }}/>
